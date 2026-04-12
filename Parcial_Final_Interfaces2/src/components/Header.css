@@ -16,11 +16,17 @@
 }
 
 .logo {
-  font-size: 1.6rem;
-  font-weight: 900;
-  color: var(--primary-color);
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.logo-img {
+  height: 90px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .right-actions {
