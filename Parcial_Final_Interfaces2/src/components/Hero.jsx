@@ -12,8 +12,9 @@ export default function Hero({ title, subtitle, ctaText, ctaLink, backgroundImag
         <h1>{title}</h1>
         <p>{subtitle}</p>
         {ctaText && ctaLink && (
-          <Link to={ctaLink} className="btn btn-primary">
-            {ctaText}
+          <Link to={ctaLink} className="hero-btn">
+           <span>{ctaText}</span>
+           <span className="hero-btn-icon">→</span>
           </Link>
         )}
       </motion.div>

@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   transition: var(--transition);
+  height: 100%; /* importante */
 }
 
 .menu-card:hover {
@@ -16,14 +17,20 @@
 }
 
 .menu-card-image {
-  min-height: 210px;
+  width: 100%;
+  height: 320px;
   overflow: hidden;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu-card-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  display: block;
   transition: transform 0.35s ease;
 }
 
@@ -36,8 +43,8 @@
   display: flex;
   flex-direction: column;
   gap: 0.9rem;
+  flex: 1; 
 }
-
 .menu-card-content h3 {
   color: var(--neutral);
 }

@@ -31,3 +31,37 @@
   .contact-hero .container{padding:1.25rem;}
   .faq-grid{grid-template-columns:1fr;}
 }
+.contact-form button,
+.contact-form .submit-btn {
+  width: 100%;
+  height: 52px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ff7c2a, #ff9f43);
+  color: #111827;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+  margin-top: 0.8rem;
+  box-shadow: 0 12px 24px rgba(255, 124, 42, 0.28);
+  transition: all 0.3s ease;
+  letter-spacing: 0.3px;
+}
+
+.contact-form button:hover,
+.contact-form .submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px rgba(255, 124, 42, 0.38);
+  background: linear-gradient(135deg, #ff8c3a, #ffae52);
+}
+
+.contact-form button:active,
+.contact-form .submit-btn:active {
+  transform: scale(0.98);
+}
+
+.contact-form button:focus,
+.contact-form .submit-btn:focus {
+  outline: 2px solid rgba(255, 255, 255, 0.35);
+  outline-offset: 4px;
+}

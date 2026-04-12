@@ -21,7 +21,13 @@ export default function Header() {
   return (
     <header className="header">
       <div className="container header-content">
-        <Link to="/" className="logo">JUICY LUCY</Link>
+        <Link to="/" className="logo">
+            <img
+              src="https://tofuu.getjusto.com/orioneat-local/resized2/gPkRA9AsbAT3qbQoP-2400-x.webp"
+               alt="Juicy Lucy"
+               className="logo-img"
+            />
+        </Link>
         <div className="right-actions">
           <nav className="nav">
             {navItems.map((item) => (

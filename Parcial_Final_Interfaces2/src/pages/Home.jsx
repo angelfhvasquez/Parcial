@@ -5,11 +5,11 @@ import MenuCard from '../components/MenuCard';
 import Testimonials from '../components/Testimonials';
 import './Home.css';
 
+
 const menuItems = [
-  { id: 1, name: 'BLT Supreme', description: 'Bacon, lechuga y tomate + salsa secreta.', price: '49', tags: ['New', 'Top'], image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=900&q=80' },
-  { id: 2, name: 'Lucy Clásica', description: 'Carne premium, doble queso cheddar.', price: '42', tags: ['Best seller'], image: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=900&q=80' },
-  { id: 3, name: 'Doble Queso', description: 'Doble carne para los más hambrientos.', price: '54', tags: ['Popular'], image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80' },
-  { id: 4, name: 'Veggie Lovers', description: 'Portobello, hummus y aguacate.', price: '41', tags: ['Vegana'] },
+  { id: 1, name: 'BLT Supreme', description: 'Bacon, lechuga y tomate + salsa secreta.', price: '20', tags: ['New', 'Top'], image: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=900&q=80' },
+  { id: 2, name: 'Lucy Clásica', description: 'Carne premium, doble queso cheddar.', price: '28', tags: ['Best seller'], image: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=900&q=80' },
+  { id: 3, name: 'Doble Queso', description: 'Doble carne para los más hambrientos.', price: '40', tags: ['Popular'], image: 'https://thumbs.dreamstime.com/b/hamburguesa-de-queso-doble-casera-fondo-negro-deliciosa-con-chuletas-carne-en-la-mesa-negra-primer-plano-espacio-para-texto-220432172.jpg' },
 ];
 
 export default function Home() {
